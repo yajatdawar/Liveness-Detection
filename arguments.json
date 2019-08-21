@@ -1,0 +1,36 @@
+
+{
+    "real" : "./videos/Train_Videos/real",
+
+    "fake" : "./videos/Train_Videos/fake",
+
+    "real_test": "./videos/Test_Videos/real",
+
+    "fake_test": "./videos/Test_Videos/fake",
+
+    "outreal" : "./dataset/real",
+
+    "outfake" : "./dataset/fake",
+
+    "outreal_test":"./test_dataset/real",
+
+    "outfake_test":"./test_dataset/fake",
+
+    "detector" : "face_detector",
+
+    "skip" : "4",
+
+    "model" : "./models/torch_old.pt",
+
+    "saved_model" : "./models/torch_new.pt",
+
+    "le": "le.pickle",
+
+    "dataset" : "dataset",
+
+    "epochs": "3",
+
+    "test_dataset": "test_dataset"
+
+
+}
